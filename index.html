@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Daliene Nonato Lima Roque — Engenheira de Software em formação e Desenvolvedora Backend .NET (C#, ASP.NET Core, EF Core, SQL Server)." />
+    <title>Daliene Roque | Desenvolvedora .NET</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./imagens/favicon.ico" />
+
+    <!-- Ícones Font Awesome e Devicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar" aria-label="Navegação principal">
+            <div class="nav-container">
+                <a href="#inicio" class="nav-brand" aria-label="Daliene Roque - Início">
+                    <span class="brand-icon" aria-hidden="true">◆</span>
+                    <span class="brand-text">DNLR</span>
+                </a>
+
+                <button type="button" class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+
+                <a href="https://wa.me/31973656802" target="_blank" rel="noopener noreferrer" class="nav-cta">
+                    <i class="fas fa-comments" aria-hidden="true"></i> Fale comigo
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="inicio" class="hero">
+            <div class="hero-bg" aria-hidden="true">
+                <div class="grid-bg"></div>
+                <div class="glow-orb glow-1"></div>
+                <div class="glow-orb glow-2"></div>
+                <div class="glow-orb glow-3"></div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-tag fade-in-up" style="animation-delay:.1s">
+                        <span class="tag-dot" aria-hidden="true"></span> Olá, seja bem-vindo(a)!
+                    </div>
+
+                    <h1 class="hero-title fade-in-up" style="animation-delay:.2s">
+                        <span class="sr-only">Olá, eu sou Daliene Roque — Engenheira de Software e Desenvolvedora .NET</span>
+                        <span id="typedText" aria-hidden="true"></span><span class="cursor" aria-hidden="true"></span>
+                    </h1>
+
+                    <p class="hero-subtitle fade-in-up" style="animation-delay:.3s">
+                        Transformando ideias em soluções modernas com <strong>C#</strong> e
+                        tecnologias <strong>.NET</strong>. Tenho interesse por inovação e em usar a
+                        tecnologia para resolver problemas e criar soluções de impacto positivo.
+                    </p>
+
+                    <div class="hero-cta-group fade-in-up" style="animation-delay:.4s">
+                        <a href="#projetos" class="btn btn-primary">
+                            <i class="fas fa-rocket" aria-hidden="true"></i> Ver projetos
+                        </a>
+                        <a href="https://github.com/DalieneRoque" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                        </a>
+                    </div>
+
+                    <div class="hero-stats fade-in-up" style="animation-delay:.5s">
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Aprendizado contínuo</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Projetos desenvolvidos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">14+</span>
+                            <span class="stat-label">Tecnologias dominadas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image fade-in-up" style="animation-delay:.3s">
+                    <div class="image-wrapper">
+                        <div class="image-glow" aria-hidden="true"></div>
+                        <img src="./imagens/EU.png" alt="Foto de perfil de Daliene Roque, Desenvolvedora .NET" class="profile-image" />
+                        <div class="image-border" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#sobre" class="scroll-hint" aria-label="Rolar para a seção Sobre mim">
+                <span class="scroll-hint-label" aria-hidden="true">Rolar para explorar</span>
+                <div class="scroll-mouse" aria-hidden="true">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <div class="scroll-arrows" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section section-dark">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="title-accent">Sobre</span> mim</h2>
+                    <div class="title-line" aria-hidden="true"></div>
+                </div>
+
+                <div class="about-wrapper">
+                    <!-- Coluna texto -->
+                    <div class="about-content fade-in-left">
+                        <div class="about-header-block">
+                            <h3 class="about-name">Daliene Nonato Lima Roque</h3>
+                            <span class="about-role-tag">
+                                <i class="fas fa-code" aria-hidden="true"></i> Desenvolvedora .NET Backend
+                            </span>
+                        </div>
+
+                        <div class="about-paragraphs">
+                            <p class="about-text">
+                                Engenheira de Software em formação pela <strong>Unicesumar</strong>,
+                                com especialização prática em Desenvolvimento Backend .NET e interesse
+                                por inovação e resolução de problemas por meio da tecnologia.
+                            </p>
+                            <p class="about-text">
+                                Atuo há mais de <strong>8 anos como Técnica de Enfermagem</strong>
+                                na Pediatria de um hospital filantrópico — uma trajetória que desenvolveu competências como
+                                comunicação, trabalho em equipe, atenção aos detalhes e capacidade de
+                                tomar decisões e resolver problemas em ambientes de alta pressão.
+                            </p>
+                            <p class="about-text">
+                                Na área de tecnologia, desenvolvo projetos utilizando
+                                <strong>C#, ASP.NET Core, APIs RESTful, Entity Framework e SQL Server</strong>,
+                                aplicando conceitos de
+                                <strong>Programação Orientada a Objetos, SOLID, Clean Architecture e Clean Code</strong>.
+                                Meu objetivo é criar soluções bem estruturadas, eficientes e escaláveis,
+                                utilizando a tecnologia para resolver problemas reais e gerar impacto positivo,
+                                enquanto continuo evoluindo como profissional de desenvolvimento de software.
+                            </p>
+                        </div>
+
+                        <p class="about-highlight">
+                            <span aria-hidden="true">🎯</span> Em busca da primeira oportunidade na área de tecnologia!
+                        </p>
+
+                        <div class="badges-group" aria-label="Conceitos e arquiteturas dominadas">
+                            <span class="badge">POO</span>
+                            <span class="badge">SOLID</span>
+                            <span class="badge">Clean Architecture</span>
+                            <span class="badge">Clean Code</span>
+                            <span class="badge">REST APIs</span>
+                            <span class="badge">DI</span>
+                        </div>
+                    </div>
+
+                    <!-- Coluna decorativa — card de código C# -->
+                    <div class="about-deco fade-in-up">
+                        <div class="code-card" role="region" aria-label="Exemplo de código C# representando o perfil de Daliene">
+                            <div class="code-card-bar">
+                                <span class="dot dot-r" aria-hidden="true"></span>
+                                <span class="dot dot-y" aria-hidden="true"></span>
+                                <span class="dot dot-g" aria-hidden="true"></span>
+                                <span class="code-card-title">Desenvolvedor.cs</span>
+                            </div>
+                            <pre class="code-block"><code><span class="c-kw">public class</span> <span class="c-cl">Daliene</span> : <span class="c-cl">Developer</span>
+<span class="c-br">{</span>
+                            <span class="c-kw">public string</span> Role <span class="c-op">=</span> <span class="c-st">"Backend .NET"</span><span class="c-op">;</span>
+
+                            <span class="c-kw">public</span> <span class="c-cl">List</span><span class="c-op">&lt;</span><span class="c-kw">string</span><span class="c-op">&gt;</span> Skills <span class="c-op">=</span> <span class="c-kw">new</span><span class="c-op">()</span>
+                            <span class="c-br">{</span>
+                            <span class="c-st">"C#"</span><span class="c-op">,</span> <span class="c-st">"ASP.NET Core"</span><span class="c-op">,</span>
+                            <span class="c-st">"EF Core"</span><span class="c-op">,</span> <span class="c-st">"SQL Server"</span><span class="c-op">,</span>
+                            <span class="c-st">"Clean Architecture"</span>
+                            <span class="c-br">}</span><span class="c-op">;</span>
+
+                            <span class="c-kw">public bool</span> OpenToWork <span class="c-op">=&gt;</span> <span class="c-kw">true</span><span class="c-op">;</span>
+<span class="c-br">}</span></code></pre>
+                            <div class="code-card-footer">
+                                <span class="code-status"><span class="status-dot" aria-hidden="true"></span> Pronta para novos desafios</span>
+                            </div>
+                        </div>
+
+                        <div class="about-stats-row">
+                            <div class="mini-stat">
+                                <span class="mini-num">100%</span>
+                                <span class="mini-lbl">Aprendizado contínuo</span>
+                            </div>
+                            <div class="mini-divider" aria-hidden="true"></div>
+                            <div class="mini-stat">
+                                <span class="mini-num">5+</span>
+                                <span class="mini-lbl">Projetos desenvolvidos</span>
+                            </div>
+                            <div class="mini-divider" aria-hidden="true"></div>
+                            <div class="mini-stat">
+                                <span class="mini-num">14+</span>
+                                <span class="mini-lbl">Tecnologias</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIÊNCIA -->
+        <section id="experiencia" class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="title-accent">Minha</span> trajetória</h2>
+                    <div class="title-line" aria-hidden="true"></div>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item fade-in-left">
+                        <div class="timeline-marker" aria-hidden="true">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2026 — Atual</span>
+                            <h3>Monitora de Programação Orientada a Objetos (POO)</h3>
+                            <p>
+                                Monitora da disciplina de <strong>Programação Orientada a Objetos (POO)</strong> na
+                                <strong>Universidade Cesumar (UniCesumar)</strong>, por meio do
+                                <strong>Programa Ampliar</strong>. Responsável por ministrar aulas EAD para os
+                                módulos 53 e 54 através do Microsoft Teams, auxiliando alunos na
+                                compreensão dos conceitos de Programação Orientada a Objetos, resolução de dúvidas
+                                e desenvolvimento da lógica de programação, contribuindo para seu aprendizado e
+                                evolução acadêmica.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item fade-in-left">
+                        <div class="timeline-marker" aria-hidden="true">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2026 — Atual</span>
+                            <h3>Iniciação Científica Voluntária</h3>
+                            <p>
+                                Atuação voluntária em projeto de <strong>Iniciação Científica</strong> com o tema
+                                <strong>“Inclusão Digital como Ferramenta para Redução das Desigualdades Sociais”</strong>,
+                                com foco em <strong>acessibilidade e inclusão digital de pessoas com deficiência visual</strong>.
+                                Desenvolvimento de pesquisa científica e de um <strong>aplicativo voltado à acessibilidade</strong>,
+                                unindo conhecimentos de tecnologia, pesquisa e desenvolvimento de software.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item fade-in-left">
+                        <div class="timeline-marker" aria-hidden="true">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 — Atual</span>
+                            <h3>Desenvolvimento Backend .NET (em formação)</h3>
+                            <p>
+                                Início dos estudos em desenvolvimento de APIs RESTful com ASP.NET Core,
+                                aplicando conceitos de Programação Orientada a Objetos, SOLID, Injeção de Dependência e Arquitetura Limpa.
+                                Experiência com Banco de dados SQL Server e PostgreSQL, além de boas práticas de desenvolvimento em projetos acadêmicos e pessoais.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item fade-in-left" style="animation-delay:.1s">
+                        <div class="timeline-marker" aria-hidden="true">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 — Atual</span>
+                            <h3>Engenharia de Software · Unicesumar</h3>
+                            <p>
+                                Graduação em andamento com foco em desenvolvimento de software, algoritmos, banco de dados e
+                                arquitetura de sistemas, além de fundamentos de engenharia de software e boas práticas de programação.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item fade-in-left" style="animation-delay:.2s">
+                        <div class="timeline-marker" aria-hidden="true">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2018 — Atual</span>
+                            <h3>Técnica de Enfermagem · Pediatria</h3>
+                            <p>
+                                Cuidados diretos ao paciente, monitoramento de sinais vitais, apoio em
+                                procedimentos e registros em prontuário. Habilidades consolidadas: trabalho
+                                em equipe, comunicação, atenção aos detalhes, gestão do tempo e atuação sob pressão.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="section section-dark">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="title-accent">Meus</span> projetos</h2>
+                    <div class="title-line" aria-hidden="true"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- TechStore -->
+                    <article class="project-card fade-in-up">
+                        <div class="card-preview preview-ecommerce" aria-hidden="true">
+                            <div class="preview-icon"><i class="fas fa-store"></i></div>
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>TechStore</h3>
+                                <div class="card-links">
+                                    <a href="https://github.com/dalieneroque/TechStore" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Repositório GitHub do projeto TechStore">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://lojatechstore.netlify.app/" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Ver demonstração online do projeto TechStore">
+                                        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>E-commerce completo simulando cenário real de empresa. Backend robusto em ASP.NET Core com frontend em Blazor WebAssembly.</p>
+                            <div class="tech-list">
+                                <span class="tech">C#</span>
+                                <span class="tech">.NET</span>
+                                <span class="tech">ASP.NET Core</span>
+                                <span class="tech">Blazor</span>
+                                <span class="tech">EF Core</span>
+                                <span class="tech">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Biblioteca API -->
+                    <article class="project-card fade-in-up" style="animation-delay:.1s">
+                        <div class="card-preview preview-api" aria-hidden="true">
+                            <div class="preview-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>Biblioteca API</h3>
+                                <div class="card-links">
+                                    <a href="https://github.com/dalieneroque/Biblioteca_Api" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Repositório GitHub do projeto Biblioteca API">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Web API em .NET 8 para gerenciamento de autores e livros. CRUD completo com persistência em SQL Server, documentada com Swagger.</p>
+                            <div class="tech-list">
+                                <span class="tech">C#</span>
+                                <span class="tech">.NET 8</span>
+                                <span class="tech">ASP.NET Core</span>
+                                <span class="tech">EF Core</span>
+                                <span class="tech">Swagger</span>
+                                <span class="tech">SQL Server</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Jokenpo -->
+                    <article class="project-card fade-in-up" style="animation-delay:.2s">
+                        <div class="card-preview preview-game" aria-hidden="true">
+                            <div class="preview-icon"><i class="fas fa-gamepad"></i></div>
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>Jokenpo</h3>
+                                <div class="card-links">
+                                    <a href="https://github.com/dalieneroque/JoKenPo" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Repositório GitHub do projeto Jokenpo">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=L2ZI1dEA9cU" target="_blank" rel="noopener noreferrer" class="card-link card-link-youtube" aria-label="Assistir vídeo demonstrativo do projeto Jokenpo no YouTube">
+                                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Jogo de Pedra, Papel e Tesoura implementado em C# com Windows Forms. Demonstra lógica de jogo e interface desktop.</p>
+                            <div class="tech-list">
+                                <span class="tech">C#</span>
+                                <span class="tech">Windows Forms</span>
+                                <span class="tech">Git</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Sítio Bahioneiro -->
+                    <article class="project-card fade-in-up" style="animation-delay:.3s">
+                        <div class="card-preview preview-site" aria-hidden="true">
+                            <div class="preview-icon"><i class="fas fa-tree"></i></div>
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>Sítio Bahioneiro – Site institucional (freelancer)</h3>
+                                <div class="card-links">
+                                    <a href="https://github.com/dalieneroque/sitioBahioneiro" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Repositório GitHub do site Sítio Bahioneiro">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://sitiobahioneiro.netlify.app/" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Acessar site online Sítio Bahioneiro">
+                                        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>
+                                Criação de site responsivo para divulgação do Sítio Bahioneiro, com galeria de fotos, informações sobre lazer, localização e contato.
+                                Projeto desenvolvido com foco em experiência do usuário, organização de conteúdo e navegação intuitiva.
+                            </p>
+                            <div class="tech-list">
+                                <span class="tech">JavaScript</span>
+                                <span class="tech">HTML5</span>
+                                <span class="tech">CSS3</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Portfólio -->
+                    <article class="project-card fade-in-up" style="animation-delay:.4s">
+                        <div class="card-preview preview-portfolio" aria-hidden="true">
+                            <div class="preview-icon"><i class="fas fa-user-astronaut"></i></div>
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>Portfólio</h3>
+                                <div class="card-links">
+                                    <a href="https://github.com/dalieneroque/Portifolio" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Repositório GitHub deste Portfólio">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://dalieneroque.github.io/" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Acessar versão online deste Portfólio">
+                                        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Este portfólio pessoal desenvolvido com HTML5, CSS3 e JavaScript puro para apresentar habilidades, projetos e trajetória.</p>
+                            <div class="tech-list">
+                                <span class="tech">HTML5</span>
+                                <span class="tech">CSS3</span>
+                                <span class="tech">JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="title-accent">Meus</span> conhecimentos</h2>
+                    <div class="title-line" aria-hidden="true"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-item fade-in-up">
+                        <i class="devicon-csharp-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>C#</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.05s">
+                        <i class="devicon-dotnetcore-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>.NET</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.1s">
+                        <i class="devicon-blazor-original colored skill-icon" aria-hidden="true"></i>
+                        <h3>Blazor</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.15s">
+                        <i class="devicon-javascript-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.2s">
+                        <i class="devicon-html5-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.25s">
+                        <i class="devicon-css3-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.3s">
+                        <i class="devicon-bootstrap-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.35s">
+                        <i class="devicon-microsoftsqlserver-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>SQL Server</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.4s">
+                        <i class="devicon-postgresql-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>PostgreSQL</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.45s">
+                        <i class="devicon-mysql-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.5s">
+                        <i class="devicon-git-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>Git</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.55s">
+                        <i class="devicon-github-original skill-icon" style="color:#1e293b" aria-hidden="true"></i>
+                        <h3>GitHub</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.6s">
+                        <i class="devicon-visualstudio-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>Visual Studio</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.65s">
+                        <i class="devicon-postman-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>Postman</h3>
+                    </div>
+                    <div class="skill-item fade-in-up" style="animation-delay:.7s">
+                        <i class="devicon-swagger-plain colored skill-icon" aria-hidden="true"></i>
+                        <h3>Swagger</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section section-dark">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <h2 class="section-title"><span class="title-accent">Vamos</span> conversar?</h2>
+                    <p class="contact-subtitle">
+                        Aberta a oportunidades, colaborações e novos desafios.
+                        Entre em contato por qualquer canal abaixo!
+                    </p>
+
+                    <div class="contact-content">
+                        <a href="mailto:dalienenl@gmail.com" class="email-link">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> dalienenl@gmail.com
+                        </a>
+
+                        <div class="social-grid">
+                            <a href="https://www.linkedin.com/in/dalieneroque/" target="_blank" rel="noopener noreferrer" class="social-card social-linkedin">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/DalieneRoque" target="_blank" rel="noopener noreferrer" class="social-card social-github">
+                                <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span>
+                            </a>
+                            <a href="https://discord.gg/kW3Mzsesqc" target="_blank" rel="noopener noreferrer" class="social-card social-discord">
+                                <i class="fab fa-discord" aria-hidden="true"></i><span>Discord</span>
+                            </a>
+                            <a href="https://www.instagram.com/dalieneroque/" target="_blank" rel="noopener noreferrer" class="social-card social-instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span>
+                            </a>
+                        </div>
+
+                        <a href="https://wa.me/31973656802" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> Entrar em contato via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Feito com <span class="heart" aria-label="amor">♥</span> por <strong>Daliene Roque</strong></p>
+                <p class="footer-year">© 2026. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
